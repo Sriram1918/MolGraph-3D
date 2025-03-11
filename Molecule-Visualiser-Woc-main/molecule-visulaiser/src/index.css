@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import '@fontsource/inter/100.css'; /* Thin */
+@import '@fontsource/inter/200.css'; /* Extra Light */
+@import '@fontsource/inter/300.css'; /* Light */
+@import '@fontsource/inter/400.css'; /* Regular */
+@import '@fontsource/inter/500.css'; /* Medium */
+@import '@fontsource/inter/600.css'; /* Semi Bold */
+@import '@fontsource/inter/700.css'; /* Bold */
+@import '@fontsource/inter/800.css'; /* Extra Bold */
+@import '@fontsource/inter/900.css'; /* Black */
+
+@layer utilities {
+  /* Hide scrollbar for Chrome, Safari and Opera */
+  .no-scrollbar::-webkit-scrollbar {
+      display: none;
+  }
+ /* Hide scrollbar for IE, Edge and Firefox */
+  .no-scrollbar {
+      -ms-overflow-style: none;  /* IE and Edge */
+      scrollbar-width: none;  /* Firefox */
+}
+}
